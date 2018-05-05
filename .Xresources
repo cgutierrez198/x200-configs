@@ -1,0 +1,52 @@
+URxvt.locale: true
+URxvt.backarrowKey: false
+URxvt.ttyModes: erase ^?
+
+URxvt.saveLines: 4096
+
+URxvt.translations: #override \n\
+	Ctrl Alt <Key>C: copy-selection(CLIPBOARD) \n\
+	Ctrl Alt <Key>V: insert-selection(CLIPBOARD)
+
+URxvt.font: xft:Anonymous Pro:size=11:antialias=false
+URxvt.scrollBar: false
+
+URxvt*background: #000000 
+URxvt.foreground: #37964c
+*color1: #ff00ff 
+
+*color2: #000044
+*color3: #00aa00
+
+*color4: #0000ff
+!*color5: #0000ff
+!
+ 
+! *color6: #00a000
+!*color7: #0000ff
+!*color8: #0000ff
+!*color9: #0000ff
+!*color10: #0000ff
+ 
+ 
+ 
+*transparent: false
+
+
+
+
+ URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+ URxvt.url-select.launcher:  basilisk
+ URxvt.url-select.underline: true
+ URxvt.keysym.M-u:           perl:url-select:select_next
+ URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+ URxvt.keysym.M-s:           perl:keyboard-select:search
+
+
+
+! clipboard
+! update clipboard whenever primary gets updated
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped

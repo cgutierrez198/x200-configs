@@ -38,7 +38,7 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec urxvt
 
-bindsym $mod+Scroll_Lock exec --no-startup-id i3lock -i /home/honwei/Pictures/Wallpapers/png_converts/05D.png
+bindsym $mod+Scroll_Lock exec --no-startup-id i3lock -i ~/Pictures/Wallpapers/png_converts/05D.png
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -162,15 +162,15 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id pulseaudio
 exec --no-startup-id xbindkeys
 #feh attempt
-#exec --no-startup-id feh --bg-scale /home/honwei/Pictures/amazingmountains.jpg
-#exec --no-startup-id feh --bg-scale /home/honwei/Pictures/Wallpapers/thumb-1920-782434.jpg
-#exec --no-startup-id feh --bg-scale /home/honwei/Pictures/fractal_brackground.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/amazingmountains.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/thumb-1920-782434.jpg
+#exec --no-startup-id feh --bg-scale ~/Pictures/fractal_brackground.jpg
 
-#exec --no-startup-id wal -i /home/honwei/Pictures/Wallpapers/thumb-1920-782434.jpg
-#exec --no-startup-id wal -i /home/honwei/Pictures/maxresdefault.jpg
-#exec --no-startup-id xrdb  /home/honwei/.Xresources
-exec --no-startup-id wal -i /home/honwei/Pictures/.aesth/1iwcit1gidyy.jpg
-#exec --no-startup-id feh --bg-fill  /home/honwei/Pictures/Z7XIMcr.png
+#exec --no-startup-id wal -i ~/Pictures/Wallpapers/thumb-1920-782434.jpg
+#exec --no-startup-id wal -i ~/Pictures/maxresdefault.jpg
+#exec --no-startup-id xrdb   ~/.Xresources
+exec --no-startup-id wal -i ~/Pictures/.aesth/1iwcit1gidyy.jpg
+#exec --no-startup-id feh --bg-fill  ~/Pictures/Z7XIMcr.png
 exec --no-startup-id xbacklight -set 40
 
 bindsym XF86AudioLowerVolume exec --no-startup-id  pamixer -d 5
