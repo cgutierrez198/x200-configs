@@ -1,0 +1,1 @@
+-x -o ~/ytMusic/%(title)s.%(ext)s

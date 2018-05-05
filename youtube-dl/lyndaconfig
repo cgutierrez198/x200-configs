@@ -1,0 +1,4 @@
+
+
+--cookies ~/Documents/cookies.txt 
+-o ~/Movies/Instructional/%(playlist)s/%(playlist_index)s-%(title)s.%(ext)s
